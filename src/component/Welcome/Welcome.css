@@ -1,0 +1,42 @@
+#welcomeContainer {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-Items:center;
+}
+
+#welcomeCard {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:600px;
+    height:300px;
+    background-color:#FFEBB5;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 23px 1px rgba(0,0,0,0.55);
+    margin-top:20px;
+}
+
+h1.welcomeTitle {
+    font-size:70px;
+    color:#5B6EB3;
+    font-family: 'Lobster', cursive;
+    line-height:1;
+    margin-block-start: 0px;
+    margin-block-end:10px;
+
+}
+
+p.welcomeInstruction {
+    font-size: 40px;
+    color:#806B34;
+    font-family: 'Red Hat Text', sans-serif;
+    line-height:1;
+    margin-block-start:0px;
+    margin-block-end:0px;
+    text-align: center;
+}
+

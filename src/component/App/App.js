@@ -3,6 +3,7 @@ import './App.css';
 import ListView from "../ListView/ListView"
 import RecipeAPI from '../../url/RecipeAPI';
 import SearchBar from "../SearchBar/SearchBar";
+import Welcome from '../Welcome/Welcome'
 
 
 
@@ -46,7 +47,8 @@ class App extends React.Component {
     return(
         <div id="app">
             <SearchBar handleSearch={this.handleSearch}/>
-            <ListView dataItemList={this.state.recipeList} />
+            {this.state.recipeList.length > 0 && <ListView dataItemList={this.state.recipeList}/>}
+            {this.state.recipeList.length === 0 && <Welcome/>}
         </div>
     )
   }

@@ -21,11 +21,13 @@
     padding:10px;
     font-size:30px;
     color:#806B34;
+    font-family: 'Red Hat Text', sans-serif;
 
 }
 
 ::placeholder {
     color: rgba(102,88,100,.2);
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 #searchButton {
