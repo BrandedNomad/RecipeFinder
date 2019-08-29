@@ -12,6 +12,9 @@
     box-shadow: 0px 10px 23px 1px rgba(0,0,0,0.55);
 }
 
+
+
+
 .listItemContainer:hover{
     background-color:#FFF2CF;
 }
@@ -40,6 +43,7 @@
     height:150px;
     padding-left:20px;
     width:350px;
+    overflow:hidden;
 
 }
 
@@ -47,7 +51,8 @@ h1.title {
     font-size: 40px;
     margin:0 ;
     color:#806B34;
-    font-family: 'Barriecito';
+    font-family: 'Red Hat Text', sans-serif;
+    line-height:1;
             /*#B3A06D*/
 
 }
@@ -58,6 +63,7 @@ h2.description{
     padding-top:10px;
     color:#5B6EB3;
     display:none;
+    font-family: 'Lobster', cursive;
 }
 
 .listItemColumnTwo {

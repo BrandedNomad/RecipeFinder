@@ -13,7 +13,7 @@ class ListItem extends React.Component{
                     </div>
                     <div className="listItemColumnOne">
                         <h1 className="title">{this.props.itemData.title}</h1>
-                        <h2 className="description">Get Recipe</h2>
+                        <h2 className="description">Get Recipe!</h2>
                     </div>
                 </div>
             </a>
