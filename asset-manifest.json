@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RecipeFinder/static/css/main.aac71224.chunk.css",
-    "main.js": "/RecipeFinder/static/js/main.767d7edd.chunk.js",
-    "main.js.map": "/RecipeFinder/static/js/main.767d7edd.chunk.js.map",
+    "main.css": "/RecipeFinder/static/css/main.9373d68a.chunk.css",
+    "main.js": "/RecipeFinder/static/js/main.86af8327.chunk.js",
+    "main.js.map": "/RecipeFinder/static/js/main.86af8327.chunk.js.map",
     "runtime~main.js": "/RecipeFinder/static/js/runtime~main.0635448e.js",
     "runtime~main.js.map": "/RecipeFinder/static/js/runtime~main.0635448e.js.map",
     "static/js/2.7c484b41.chunk.js": "/RecipeFinder/static/js/2.7c484b41.chunk.js",
     "static/js/2.7c484b41.chunk.js.map": "/RecipeFinder/static/js/2.7c484b41.chunk.js.map",
     "index.html": "/RecipeFinder/index.html",
-    "precache-manifest.9d103f4916d9969fb1d7745ea8376958.js": "/RecipeFinder/precache-manifest.9d103f4916d9969fb1d7745ea8376958.js",
+    "precache-manifest.1bdb4af3737a3f0b473acd6ad4fada9d.js": "/RecipeFinder/precache-manifest.1bdb4af3737a3f0b473acd6ad4fada9d.js",
     "service-worker.js": "/RecipeFinder/service-worker.js",
-    "static/css/main.aac71224.chunk.css.map": "/RecipeFinder/static/css/main.aac71224.chunk.css.map",
+    "static/css/main.9373d68a.chunk.css.map": "/RecipeFinder/static/css/main.9373d68a.chunk.css.map",
     "static/media/SearchBar.css": "/RecipeFinder/static/media/cuttingbg.3acd5a1c.jpg"
   }
 }
