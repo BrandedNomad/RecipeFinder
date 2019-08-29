@@ -1,0 +1,42 @@
+#searchBarContainer {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:300px;
+    background-image:url("cuttingbg.jpg");
+    background-size: cover;
+    background-position:bottom;
+    box-shadow: 0px 10px 23px 1px rgba(0,0,0,0.55);
+}
+
+
+
+#searchField {
+    width:500px;
+    border-radius:5px;
+    border-color:#fff;
+    text-align: center;
+    padding:10px;
+    font-size:30px;
+    color:#806B34;
+
+}
+
+::placeholder {
+    color: rgba(102,88,100,.2);
+}
+
+#searchButton {
+
+    font-Size:30px;
+    padding:10px;
+    border-radius:5px;
+    background-color:#806B34;
+    color:#FFFFFF;
+}
+
+#searchTitle {
+    font-size:30px
+}

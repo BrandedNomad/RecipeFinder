@@ -1,0 +1,83 @@
+.listItemContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:600px;
+    height:170px;
+    margin-bottom: 20px;
+    background-color:#FFEBB5;
+    padding-left:10px;
+    border-radius:5px;
+    box-shadow: 0px 10px 23px 1px rgba(0,0,0,0.55);
+}
+
+.listItemContainer:hover{
+    background-color:#FFF2CF;
+}
+
+.listItemContainer:hover .title{
+    font-size:24px
+}
+
+.listItemContainer:hover .description {
+    font-size: 70px;
+    display:inline;
+}
+
+.listItemContainer:active{
+    box-shadow:0 0 0 0;
+}
+
+/**/
+
+.listItemColumnOne {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow:2;
+    height:150px;
+    padding-left:20px;
+    width:350px;
+
+}
+
+h1.title {
+    font-size: 40px;
+    margin:0 ;
+    color:#806B34;
+    font-family: 'Barriecito';
+            /*#B3A06D*/
+
+}
+
+h2.description{
+    font-size:16px;
+    margin:0;
+    padding-top:10px;
+    color:#5B6EB3;
+    display:none;
+}
+
+.listItemColumnTwo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow:0;
+    height:150px;
+}
+
+
+
+img.recipeImage {
+    height:150px;
+    width:150px;
+    margin:0px;
+    border-radius:5px;
+}
+
+a.recipeLink {
+    text-decoration: none;
+}
