@@ -22,6 +22,7 @@ class App extends React.Component {
 
         this.searchRecipes = this.searchRecipes.bind(this)
         this.handleSearch =  this.handleSearch.bind(this)
+        this.checkDefined = this.checkDefined.bind(this)
     }
 
     //Calls the RecipeAPI function
@@ -42,13 +43,25 @@ class App extends React.Component {
         this.searchRecipes(ingredient);
     }
 
+    checkDefined(){
+        if(Array.isArray(this.state.recipeList)){
+            if(this.state.recipeList > 0){
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false
+        }
+    }
+
     render(){
 
     return(
         <div id="app">
             <SearchBar handleSearch={this.handleSearch}/>
-            {this.state.recipeList.length > 0 && <ListView dataItemList={this.state.recipeList}/>}
-            {this.state.recipeList.length === 0 && <Welcome/>}
+            {this.checkDefined()  && <ListView dataItemList={this.state.recipeList}/>}
+            {this.checkDefined() === false && <Welcome/>}
         </div>
     )
   }
