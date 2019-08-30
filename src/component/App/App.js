@@ -45,7 +45,7 @@ class App extends React.Component {
 
     checkDefined(){
         if(Array.isArray(this.state.recipeList)){
-            if(this.state.recipeList > 0){
+            if(this.state.recipeList.length > 0){
                 return true;
             } else {
                 return false;
